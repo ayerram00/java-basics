@@ -1,2 +1,5 @@
-# java-basics
-Exercises covering the basics of Java
+## JAVA Basics
+
+Project to showcase a basics of Java.
+
+[Anand Yerramsetty](http://mywebsite.com)
