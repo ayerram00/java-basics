@@ -6,5 +6,6 @@ Project to showcase a basics of Java.
 3) Primitives
 4) Switch
 5) If/Else
+6) and many more....
 
 [Anand Yerramsetty](http://mywebsite.com)
