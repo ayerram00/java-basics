@@ -7,18 +7,20 @@ public class Jogging {
 		Scanner scanner = new Scanner(System.in);
 		name = scanner.nextLine();
 		int day = 0;
-		
-		
-		
+
 	
-	do
-		{
-			System.out.println("So how many days(enter 1-7) did you go Jogging this week " + name + "?");	
-			String daystring = scanner.nextLine();
-			day=Integer.parseInt(daystring);
-		} while((day < 1) || (day > 7));
-			
-			
+		do
+			{
+			try {
+				System.out.println("So how many days(enter 1-7) did you go Jogging this week " + name + "?");	
+				String daystring = scanner.nextLine();
+				day=Integer.parseInt(daystring);
+			} catch (NumberFormatException e) {
+				System.out.println("Please enter a number.");
+			}
+			} while((day < 1) || (day > 7));
+	
+						
 		int i;
 		int total = 0;
 		for(i=1;i<=day;i++)
